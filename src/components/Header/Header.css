@@ -1,0 +1,35 @@
+#header{
+    width: 100%;
+    background: black;
+    color:white;
+    padding:10px 0;
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul {
+    display: flex;
+    column-gap:10px;
+    align-items: center;
+    list-style: none;
+}
+
+.header__nav img{
+    width: 50px;
+    height: 50px;
+}
+
+.header__nav ul a{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.header__nav ul .selected{
+    color:red;
+}

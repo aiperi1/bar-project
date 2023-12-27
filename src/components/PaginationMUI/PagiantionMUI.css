@@ -1,0 +1,8 @@
+.pagination__mui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondary{
+    margin: 20px;
+}
